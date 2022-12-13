@@ -1,10 +1,29 @@
-<script setup>
-  import HomeView from "@/HomeView";
-</script>
-
 <template>
-  <HomeView/>
+  <div id="app">
+    <header>
+      <AppBar></AppBar>
+    </header>
+    
+    <main>
+      <MyHero></MyHero>
+    </main>
+  </div>
 </template>
 
-<style scoped>
+<script>
+import AppBar from "./components/AppBar.vue"
+import MyHero from "./components/MyHero.vue"
+export default {
+  name:"App",
+  components:{AppBar,MyHero},
+  data(){
+    return{
+
+    }
+  }
+};
+</script>
+
+<style>
+
 </style>

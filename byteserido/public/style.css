@@ -1,0 +1,11 @@
+html,body{
+    height: 100%;
+    font-family: '', sans-serif;
+    background: #1A1A1A;
+    color: #F4F1F1;
+}
+
+.container{
+    max-width: 1444px;
+    margin: 0 auto;
+}
