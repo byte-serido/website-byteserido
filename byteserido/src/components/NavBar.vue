@@ -45,5 +45,10 @@ export default {
         font-family: 'Raleway', sans-serif;
         line-height: 23.48px;
         cursor: pointer;
+        position: relative;
+        transition: all 400ms ease;
+    }
+    .menu-button:hover{
+        color: #005EFF;
     }
 </style>
