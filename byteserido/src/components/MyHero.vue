@@ -89,4 +89,34 @@ export default {
         font-weight: 700;
     }
     
+    /* @media */
+    @media (max-width:700px){
+        .text{
+            max-width: 778px;
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 63.79px;
+            text-align: start;
+        }
+        
+        .subtext{
+            max-width: 584px;
+            font-weight: 400;
+            font-size: 1.25rem;
+            line-height: 26.58px;
+            text-align: start;
+        }
+        .hero article{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 34px;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 43px;
+        }
+    }
 </style>
