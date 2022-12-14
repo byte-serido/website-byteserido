@@ -58,10 +58,8 @@ export default {
         .menu-bar{
             display: none;
         }
+        .navbar{
+            justify-content: center;
+        }
     }
-
-    .navbar{
-        justify-content: center;
-    }
-
 </style>
