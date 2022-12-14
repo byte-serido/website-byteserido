@@ -1,14 +1,12 @@
 <template>
-  <div id="app">
-    <header>
-      <AppBar></AppBar>
-    </header>
-    
-    <main>
-      <MyHero></MyHero>
-      <MyAbout></MyAbout>
-    </main>
-  </div>
+  <header>
+    <AppBar></AppBar>
+  </header>
+  
+  <main>
+    <MyHero></MyHero>
+    <MyAbout></MyAbout>
+  </main>
 </template>
 
 <script>
@@ -16,7 +14,6 @@ import AppBar from "./components/AppBar.vue"
 import MyHero from "./components/MyHero.vue"
 import MyAbout from "./components/MyAbout.vue"
 export default {
-  name:"App",
   components:{AppBar,MyHero,MyAbout},
   data(){
     return{
@@ -27,5 +24,10 @@ export default {
 </script>
 
 <style>
-
+  #app{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100%;
+  }
 </style>
