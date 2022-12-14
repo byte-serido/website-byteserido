@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Menu bar</p>
+        <p>Sobre a byte</p>
     </div>
 </template>
 <script>
