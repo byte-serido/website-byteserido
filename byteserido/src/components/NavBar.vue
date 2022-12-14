@@ -39,6 +39,7 @@ export default {
     }
     .menu-button{
         background-color: transparent;
+        border: none;
         color: #FFFFFF;
         font-size: 1.25rem;
         font-weight: 700;
@@ -51,4 +52,16 @@ export default {
     .menu-button:hover{
         color: #005EFF;
     }
+
+    /* @media */
+    @media (max-width:900px){
+        .menu-bar{
+            display: none;
+        }
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+
 </style>
