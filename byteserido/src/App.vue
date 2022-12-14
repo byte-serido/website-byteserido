@@ -1,6 +1,6 @@
 <template>
   <header>
-    <AppBar></AppBar>
+    <NavBar></NavBar>
   </header>
   
   <main>
@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import AppBar from "./components/AppBar.vue"
+import NavBar from "./components/NavBar.vue"
 import MyHero from "./components/MyHero.vue"
 import MyAbout from "./components/MyAbout.vue"
 export default {
-  components:{AppBar,MyHero,MyAbout},
+  components:{NavBar,MyHero,MyAbout},
   data(){
     return{
 

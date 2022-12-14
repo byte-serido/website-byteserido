@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p>Menu bar</p>
-    </div>
+    <section class="navbar-container">
+
+    </section>
 </template>
 <script>
 export default {
