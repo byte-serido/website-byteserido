@@ -24,12 +24,12 @@ export default {
 
 <style scoped>
     .hero-container{
-        padding: 144px 0px 302px 0px;
-        background-size: cover;
-        background-image: url("../assets/background-hero.svg");
         font-family: 'Exo', sans-serif;
     }
     .hero{
+        padding: 144px 0px 302px 0px;
+        background-size: cover;
+        background-image: url("../assets/background-hero.svg");
         display: flex;
         flex-direction: column;
         align-items: center;
