@@ -6,6 +6,7 @@
   <main>
     <MyHero></MyHero>
     <MyAbout></MyAbout>
+    <MySolutionsAndServices></MySolutionsAndServices>
   </main>
 </template>
 
@@ -13,11 +14,15 @@
 import NavBar from "./components/NavBar.vue"
 import MyHero from "./components/MyHero.vue"
 import MyAbout from "./components/MyAbout.vue"
+import MySolutionsAndServices from "./components/MySolutionsAndServices.vue";
+
 export default {
-  components:{NavBar,MyHero,MyAbout},
+  components:{NavBar,MyHero,MyAbout,MySolutionsAndServices},
   data(){
     return{
-
+      data(){
+        return{}
+      }
     }
   }
 };
