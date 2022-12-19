@@ -15,12 +15,17 @@
                 </button>
                 <div class="line"></div>
             </div>
+            <MyService v-if="toogleServices"></MyService>
+            <MySolution v-else></MySolution>
         </div>
     </section>
 </template>
 
-<script>
+<script lang="js">
+import MyService from "./MyService.vue"
+import MySolution from "./MySolution.vue"
 export default {
+    components:{MyService, MySolution},
     data(){
         return{
             toogleServices: true,
@@ -59,7 +64,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 30px 128px 126px 128px;
+        padding: 63px 128px 126px 128px;
         gap: 80px;
     }
 
