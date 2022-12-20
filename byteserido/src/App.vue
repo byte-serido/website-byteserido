@@ -9,6 +9,9 @@
     <MySolutionsAndServices></MySolutionsAndServices>
     <MyContact></MyContact>
   </main>
+  <footer>
+    <MyFooter></MyFooter>
+  </footer>
 </template>
 
 <script>
@@ -17,8 +20,9 @@ import MyHero from "./components/MyHero.vue"
 import MyAbout from "./components/MyAbout.vue"
 import MySolutionsAndServices from "./components/MySolutionsAndServices.vue";
 import MyContact from "./components/MyContact.vue"
+import MyFooter from "./components/MyFooter.vue";
 export default {
-  components:{NavBar,MyHero,MyAbout,MySolutionsAndServices, MyContact},
+  components:{NavBar,MyHero,MyAbout,MySolutionsAndServices,MyContact,MyFooter},
   data(){
     return{
       data(){
