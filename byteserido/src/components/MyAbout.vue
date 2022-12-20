@@ -8,8 +8,8 @@
             </div>
             <div class="history">
                 <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+                    <p>A Byte Seridó JR é a primeira Empresa Junior do Seridó a ser federada. Foi fundada e iniciou as suas atividades no ano de 2019 e atualmente é composta por 20 membros, que tem a missão de oferecer serviços competentes e soluções inovadoras para a região.</p>
+                    <p>A EJ (ou marca?) representa o Curso de Bacharelado em Sistemas de Informação da UFRN, campus CERES Caicó e tem “Seridó” na sua marca para referenciar a sua localidade.</p>
                 </article>
                 <div>
                     <img src="../assets/img/vista_aérea_caico.svg" alt="Imagem aérea de Caicó"/>
