@@ -96,7 +96,7 @@ export default {
             font-weight: 700;
             font-size: 3rem;
             line-height: 63.79px;
-            text-align: start;
+            text-align: flex-start;
         }
         
         .subtext{
@@ -104,18 +104,18 @@ export default {
             font-weight: 400;
             font-size: 1.25rem;
             line-height: 26.58px;
-            text-align: start;
+            text-align: flex-start;
         }
         .hero article{
             display: flex;
             flex-direction: column;
-            align-items: start;
+            align-items: flex-start;
             gap: 34px;
         }
         .hero{
             display: flex;
             flex-direction: column;
-            align-items: start;
+            align-items: flex-start;
             gap: 43px;
         }
     }
