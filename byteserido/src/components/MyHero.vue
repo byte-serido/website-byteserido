@@ -11,7 +11,7 @@
             </article>
             <button>
                 <p>CONHEÇA A BYTE SERIDÓ JÚNIOR</p>
-                <img src="../assets/icon-next.svg" alt="Icone de avanço">
+                <img src="../assets/img/icon-next.svg" alt="Icone de avanço">
             </button>
         </div>
     </section>
@@ -29,7 +29,7 @@ export default {
     .hero{
         padding: 144px 0px 302px 0px;
         background-size: cover;
-        background-image: url("../assets/background-hero.svg");
+        background-image: url("../assets/img/background-hero.svg");
         display: flex;
         flex-direction: column;
         align-items: center;
