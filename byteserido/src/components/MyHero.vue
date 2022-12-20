@@ -25,11 +25,11 @@ export default {
 <style scoped>
     .hero-container{
         font-family: 'Exo', sans-serif;
+        background-image: url("../assets/img/background-hero.svg");
+        background-size: cover;
     }
     .hero{
         padding: 144px 0px 302px 0px;
-        background-size: cover;
-        background-image: url("../assets/img/background-hero.svg");
         display: flex;
         flex-direction: column;
         align-items: center;
