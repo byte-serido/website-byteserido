@@ -7,6 +7,7 @@
     <MyHero></MyHero>
     <MyAbout></MyAbout>
     <MySolutionsAndServices></MySolutionsAndServices>
+    <MyContact></MyContact>
   </main>
 </template>
 
@@ -15,9 +16,9 @@ import NavBar from "./components/NavBar.vue"
 import MyHero from "./components/MyHero.vue"
 import MyAbout from "./components/MyAbout.vue"
 import MySolutionsAndServices from "./components/MySolutionsAndServices.vue";
-
+import MyContact from "./components/MyContact.vue"
 export default {
-  components:{NavBar,MyHero,MyAbout,MySolutionsAndServices},
+  components:{NavBar,MyHero,MyAbout,MySolutionsAndServices, MyContact},
   data(){
     return{
       data(){
