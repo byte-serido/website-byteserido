@@ -29,7 +29,7 @@ export default {
         background-size: cover;
     }
     .hero{
-        padding: 144px 0px 302px 0px;
+        padding: 144px 64px 302px 64px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -96,7 +96,7 @@ export default {
             font-weight: 700;
             font-size: 3rem;
             line-height: 63.79px;
-            text-align: flex-start;
+            text-align: start;
         }
         
         .subtext{
@@ -104,7 +104,7 @@ export default {
             font-weight: 400;
             font-size: 1.25rem;
             line-height: 26.58px;
-            text-align: flex-start;
+            text-align:start;
         }
         .hero article{
             display: flex;
@@ -116,7 +116,7 @@ export default {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 43px;
+            gap: 120px;
         }
     }
 </style>
