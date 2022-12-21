@@ -87,4 +87,61 @@ export default {
         color: #FFFFFF;
         font-weight: 400;
     }
+
+    /* @media */
+    @media (max-width:1200px){
+        .history article{
+            max-width: none;
+            gap: 20px;
+        }
+
+        span{
+            justify-content: flex-start;
+        }
+
+        .history{  
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+        }
+        
+    }
+
+    @media (max-width:700px){
+
+        .about-title{
+            gap: 26px;
+        }
+
+        .about-title p{
+            font-family: "Exo", sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            padding-left: 20px;
+        }
+
+        .history{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .history article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 511px;
+            font-size: 1.5rem;
+            line-height: 28.18px;
+            font-family: "Raleway", sans-serif;
+            gap:30px;
+            color: #FFFFFF;
+        }
+
+        .history div{
+            display: none;
+        }
+        
+    }
+
 </style>
