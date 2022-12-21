@@ -57,4 +57,43 @@ export default {
         text-align: center;
         justify-content: center;
     }
+
+    /* @media */
+    @media (max-width:1200px){
+
+        .solutions{
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            color: #FFFFFF;
+        }
+        .consultoria{
+            height: 200px;
+            width: 240px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 20px;
+            gap: 22px;
+        }
+
+        .midias-sociais{
+            height: 200px;
+            width: 240px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding: 20px;
+            gap: 22px;
+        }
+    }
+
+    @media (max-width:700px){
+        .solutions{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            color: #FFFFFF;
+        }
+    }
+
 </style>

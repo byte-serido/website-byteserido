@@ -127,4 +127,47 @@ export default {
     .toogleSolutions{
         border-bottom: 3px solid blue;
     }
+
+    /* @media */
+
+    @media (max-width:1200px){
+        .line{
+            color:#FFFFFF;
+            width: 12rem;
+            background-color: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            line-height: 38px;
+            padding-bottom: 19px;
+            border-bottom: 0.5px solid #FFFFFF;
+        }
+    }
+
+    @media (max-width:800px){
+        .line{
+            display: none;
+        }
+    }
+
+    @media (max-width:700px){
+        .sands-container .sands{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding: 60px 20px 120px 20px;
+            gap: 60px;
+        }
+
+        .sands p {
+            font-family: "Exo", sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+
+        span{
+            font-size: 1.5rem;
+        }
+    }
 </style>
