@@ -130,7 +130,7 @@ export default {
         }
     }
 
-    @media (max-width:400px){
+    @media (max-width:460px){
         .contact{
             gap: 60px;
             padding: 70px 40px 100px 40px;

@@ -201,7 +201,7 @@ export default {
         }
     }
 
-    @media (max-width:400px){
+    @media (max-width:460px){
         .footer{
             padding: 50px 40px 100px 40px;
         }

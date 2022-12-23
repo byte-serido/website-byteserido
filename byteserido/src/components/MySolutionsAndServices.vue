@@ -160,10 +160,8 @@ export default {
         }
 
         .sands p {
-            font-family: "Exo", sans-serif;
-            font-weight: 700;
-            font-size: 2rem;
-            color: #FFFFFF;
+            font-size: 1.6rem;
+            text-align: center;
         }
 
         span{
@@ -171,22 +169,23 @@ export default {
         }
     }
 
-    @media (max-width:400px){
+    @media (max-width:550px){
+        img{
+            display: none;
+        }
+
+    }
+
+    @media (max-width:460px){
 
         .sands-container .sands{
             padding: 40px 20px 100px 20px;
             gap: 50px;
         }
-
         .sands p {
             font-size: 1.5rem;
             text-align: center;
         }
-
-        img{
-            display: none;
-        }
-
         span{
             font-size: 1.3rem;
         }
