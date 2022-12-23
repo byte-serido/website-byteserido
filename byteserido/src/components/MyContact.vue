@@ -6,31 +6,31 @@
             <hr>
             <p class="options-socias">Siga nossas redes sociais:</p>
             <div class="list-social">
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_facebook.svg" alt="Icone do Facebook">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_instagram.svg" alt="Icone do Instagram">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_twitter.svg" alt="Icone do Twitter">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_linkdin.svg" alt="Icone do Linkedin">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_github.svg" alt="Icone do GitHub">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_whatsaap.svg" alt="Icone do Whatsaap">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="" target="_blank">
                     <img src="../assets/social/icon_email.svg" alt="Icone do E-mail">
                 </a>
 
@@ -111,6 +111,23 @@ export default {
 
     a{
         text-decoration: none;
+    }
+
+    /* @media */
+
+    @media (max-width:700px){
+
+
+        .contact .list-social{
+            display: grid;
+            grid-template-areas:"item item item";
+            gap: 26px;
+        }
+
+        .contact button{
+            font-size: 1.2rem;
+            padding: 20px 20px;
+        }
     }
 
 </style>
