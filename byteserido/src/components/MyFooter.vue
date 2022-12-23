@@ -6,10 +6,10 @@
                 <div class="navigation">
                     <p>MAPA DO SITE</p>
                     <div class="menu">
-                        <a class="item">início</a>
-                        <a class="item">serviços</a>
-                        <a class="item">quem somos</a>
-                        <a class="item">fale conosco</a>
+                        <a class="item" href="#hero">início</a>
+                        <a class="item" href="#sands">serviços</a>
+                        <a class="item" href="#about">quem somos</a>
+                        <a class="item" href="#contact">fale conosco</a>
                     </div>
                 </div>
                 <div class="social">
