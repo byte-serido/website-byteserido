@@ -15,31 +15,31 @@
                 <div class="social">
                     <p>ACOMPANHE NOSSAS REDES SOCIAIS</p>
                     <div class="icons">
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_facebook.svg" alt="Icone do Facebook">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_instagram.svg" alt="Icone do Instagram">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_twitter.svg" alt="Icone do Twitter">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_linkdin.svg" alt="Icone do Linkedin">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_github.svg" alt="Icone do GitHub">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_whatsaap.svg" alt="Icone do Whatsaap">
                         </a>
 
-                        <a rel="stylesheet" href="" target="_blank">
+                        <a class="item" rel="stylesheet" href="" target="_blank">
                             <img src="../assets/social/icon_email.svg" alt="Icone do E-mail">
                         </a>
                     </div>
@@ -74,6 +74,7 @@ export default {
     .navigation-and-social{
         display: flex;
         justify-content: space-between;
+        gap: 32px;
         align-items: center;
         min-width: 100%;
     }
@@ -136,5 +137,67 @@ export default {
         font-weight: 700;
         text-decoration: none;
         cursor: pointer;
+    }
+
+    /* @media */
+
+    @media (max-width:1200px){
+        .social .icons{
+            display: grid;
+            grid-template-areas:"item item item";
+            gap:26px;
+        }
+
+        .navigation .menu{
+            display: grid;
+            grid-template-areas:"item";
+            gap: 26px;
+        }
+
+        .social{
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .navigation{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    @media (max-width:700px){
+        .social{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .social p{
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        .navigation p{
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .navigation a{
+            font-size: 1.46rem;
+            color: #C4C4C4;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .footer .rights-business{
+            font-size: 1.2rem;
+        }
     }
 </style>
