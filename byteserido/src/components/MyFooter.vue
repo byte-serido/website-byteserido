@@ -200,4 +200,52 @@ export default {
             font-size: 1.2rem;
         }
     }
+
+    @media (max-width:400px){
+        .footer{
+            padding: 50px 40px 100px 40px;
+        }
+
+        .navigation-and-social{
+            display: flex;
+            flex-direction: column;
+            justify-content: none;
+            gap: 60px;
+            align-items: center;
+            min-width: 100%;
+        }
+
+        .navigation{
+            gap: 30px;
+        }
+
+        .social{
+            gap: 30px;
+        }
+
+        .navigation .menu{
+            display: grid;
+            grid-template-areas:"item item";
+            gap: 26px;
+        }
+
+        .social p{
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-align: start;
+        }
+
+        .navigation p{
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .navigation a{
+            font-size: 1.4rem;
+            color: #C4C4C4;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
 </style>

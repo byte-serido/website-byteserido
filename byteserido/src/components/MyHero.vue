@@ -119,4 +119,44 @@ export default {
             gap: 120px;
         }
     }
+
+    @media(max-width:400px){
+
+        .hero{
+            padding: 100px 40px 100px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            gap: 43px;
+        }
+        .text{
+            font-size: 2rem;
+            line-height: 36px;
+            text-align: start;
+        }
+        
+        .subtext{
+            font-size: 1rem;
+            line-height: 20px;
+            text-align:start;
+        }
+        .hero article{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 100px;
+        }
+
+        .hero button p{
+            font-size: 1rem;
+            line-height: 20px;
+        }
+    }
 </style>

@@ -141,7 +141,47 @@ export default {
         .history div{
             display: none;
         }
-        
+    }
+
+    @media (max-width:400px){
+
+        .about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 40px 100px 40px;
+            gap: 50px;
+        }
+        .about-title{
+            gap: 20px;
+        }
+
+        .about-title p{
+            font-size: 1.5rem;
+            padding-left: 0px;
+        }
+
+        .history{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .history article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 520px;
+            font-size: 1.2rem;
+            line-height: 24.18px;
+            font-family: "Raleway", sans-serif;
+            gap:24px;
+            color: #FFFFFF;
+        }
+
+        .history div{
+            display: none;
+        }
     }
 
 </style>

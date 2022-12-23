@@ -155,7 +155,7 @@ export default {
             display: flex;
             flex-direction: column;
             align-items:center;
-            padding: 60px 20px 120px 20px;
+            padding: 60px 20px 120px 40px;
             gap: 60px;
         }
 
@@ -168,6 +168,27 @@ export default {
 
         span{
             font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width:400px){
+
+        .sands-container .sands{
+            padding: 40px 20px 100px 20px;
+            gap: 50px;
+        }
+
+        .sands p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        img{
+            display: none;
+        }
+
+        span{
+            font-size: 1.3rem;
         }
     }
 </style>

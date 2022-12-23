@@ -130,4 +130,29 @@ export default {
         }
     }
 
+    @media (max-width:400px){
+        .contact{
+            gap: 60px;
+            padding: 70px 40px 100px 40px;
+        }
+
+        .contact .title{
+            font-family: "Exo", sans-serif;
+            font-size: 1.6rem;
+            line-height: 30px;
+            font-weight: 700;
+            text-align: center;
+            max-width: 597px;
+        }
+
+        .contact button{
+            font-size: 1rem;
+            padding: 18px 18px;
+        }
+
+        .contact .options-socias{
+            font-size: 1.6rem;
+        }
+    }
+
 </style>
