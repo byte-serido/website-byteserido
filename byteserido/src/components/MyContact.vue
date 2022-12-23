@@ -2,7 +2,7 @@
     <section class="contact-container">
         <div class="container contact">
             <p class="title">Fale com um de nossos consultores e descubra mais sobre nossos serviços.</p>
-            <button>AGENDE UMA REUNIÃO CONOSCO</button>
+            <a class="button" href="https://wa.me/558398010847" target="_blank">AGENDE UMA REUNIÃO CONOSCO</a>
             <hr>
             <p class="options-socias">Siga nossas redes sociais:</p>
             <div class="list-social">
@@ -68,7 +68,7 @@ export default {
         max-width: 597px;
     }
 
-    .contact button{
+    .contact .button{
         font-family: "Exo",sans-serif;
         border-radius: 10px;
         font-weight: 700;
@@ -82,7 +82,7 @@ export default {
         transition: all 400ms ease;
     }
 
-    .contact button:hover{
+    .contact .button:hover{
         background: transparent;
         color: #005EFF;
     }
@@ -124,7 +124,7 @@ export default {
             gap: 26px;
         }
 
-        .contact button{
+        .contact .button{
             font-size: 1.2rem;
             padding: 20px 20px;
         }
@@ -145,7 +145,7 @@ export default {
             max-width: 597px;
         }
 
-        .contact button{
+        .contact .button{
             font-size: 1rem;
             padding: 18px 18px;
         }
