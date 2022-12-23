@@ -3,22 +3,21 @@
         <div class="container navbar">
             <img src="../assets/img/navbar-logo.svg" alt="Logo da ByteSeridó Jr">
             <div class="menu-bar">
-                <li v-for="menu in menu" :key="menu">
-                    <button class="menu-button">{{menu}}</button>
-                </li>
+                <a class="menu-button" href="#hero">início</a>
+                <a class="menu-button" href="#about">quem somos</a>
+                <a class="menu-button" href="#sands">serviços</a>
+                <a class="menu-button" href="#contact">fale conosco</a>
             </div>
         </div>
     </section>
 </template>
+
 <script>
 export default {
-    data(){
-        return{
-            menu:["início","quem somos","serviços", "fale conosco"]
-        }
-    }
+
 }
 </script>
+
 <style scoped>
     .navbar-container {
         padding: 10px 96px;
@@ -51,6 +50,10 @@ export default {
     }
     .menu-button:hover{
         color: #005EFF;
+    }
+
+    a{
+        text-decoration: none;
     }
 
     /* @media */
