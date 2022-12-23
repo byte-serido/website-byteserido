@@ -9,10 +9,10 @@
                     Descubra como nossos serviços podem fazer você se destacar no mercado.
                 </p>
             </article>
-            <button>
+            <a class="button" href="#about">
                 <p>CONHEÇA A BYTE SERIDÓ JÚNIOR</p>
                 <img src="../assets/img/icon-next.svg" alt="Icone de avanço">
-            </button>
+            </a>
         </div>
     </section>
 </template>
@@ -29,7 +29,7 @@ export default {
         background-size: cover;
     }
     .hero{
-        padding: 144px 0px 302px 0px;
+        padding: 144px 64px 302px 64px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -62,7 +62,7 @@ export default {
         text-align: center;
     }
 
-    .hero button{
+    .hero .button{
         font-family: "Exo",sans-serif;
         display: flex;
         gap: 15px;
@@ -78,15 +78,19 @@ export default {
         transition: all 400ms ease;
     }
 
-    .hero button:hover{
+    .hero .button:hover{
         background: transparent;
         color: #005EFF;
     }
 
-    .hero button p{
+    .hero .button p{
         font-size: 1.25rem;
         line-height: 26.58px;
         font-weight: 700;
+    }
+
+    a{
+        text-decoration: none;
     }
     
     /* @media */
@@ -96,7 +100,7 @@ export default {
             font-weight: 700;
             font-size: 3rem;
             line-height: 63.79px;
-            text-align: flex-start;
+            text-align: start;
         }
         
         .subtext{
@@ -104,7 +108,7 @@ export default {
             font-weight: 400;
             font-size: 1.25rem;
             line-height: 26.58px;
-            text-align: flex-start;
+            text-align:start;
         }
         .hero article{
             display: flex;
@@ -116,7 +120,47 @@ export default {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            gap: 120px;
+        }
+    }
+
+    @media(max-width:460px){
+
+        .hero{
+            padding: 100px 40px 100px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
             gap: 43px;
+        }
+        .text{
+            font-size: 2rem;
+            line-height: 36px;
+            text-align: start;
+        }
+        
+        .subtext{
+            font-size: 1rem;
+            line-height: 20px;
+            text-align:start;
+        }
+        .hero article{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 100px;
+        }
+
+        .hero .button p{
+            font-size: 1rem;
+            line-height: 20px;
         }
     }
 </style>

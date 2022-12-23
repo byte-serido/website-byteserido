@@ -2,35 +2,35 @@
     <section class="contact-container">
         <div class="container contact">
             <p class="title">Fale com um de nossos consultores e descubra mais sobre nossos serviços.</p>
-            <button>AGENDE UMA REUNIÃO CONOSCO</button>
+            <a class="button" href="https://wa.me/558398010847" target="_blank">AGENDE UMA REUNIÃO CONOSCO</a>
             <hr>
             <p class="options-socias">Siga nossas redes sociais:</p>
             <div class="list-social">
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="https://www.facebook.com/profile.php?id=100072218402852" target="_blank">
                     <img src="../assets/social/icon_facebook.svg" alt="Icone do Facebook">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="https://www.instagram.com/byteseridojr/" target="_blank">
                     <img src="../assets/social/icon_instagram.svg" alt="Icone do Instagram">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="https://twitter.com/ByteSerido" target="_blank" >
                     <img src="../assets/social/icon_twitter.svg" alt="Icone do Twitter">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="https://www.linkedin.com/company/byte-serid%C3%B3-jr/" target="_blank">
                     <img src="../assets/social/icon_linkdin.svg" alt="Icone do Linkedin">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" href="https://github.com/byte-serido" target="_blank">
                     <img src="../assets/social/icon_github.svg" alt="Icone do GitHub">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" title="(83)9-9801-0847" rel="stylesheet" href="https://wa.me/558398010847" target="_blank">
                     <img src="../assets/social/icon_whatsaap.svg" alt="Icone do Whatsaap">
                 </a>
 
-                <a rel="stylesheet" href="" target="_blank">
+                <a class="item" rel="stylesheet" title="byteseridoceres@gmail.com" target="_blank" href="mailto:byteseridoceres@gmail.com?subject=Hello%20again">
                     <img src="../assets/social/icon_email.svg" alt="Icone do E-mail">
                 </a>
 
@@ -68,7 +68,7 @@ export default {
         max-width: 597px;
     }
 
-    .contact button{
+    .contact .button{
         font-family: "Exo",sans-serif;
         border-radius: 10px;
         font-weight: 700;
@@ -82,7 +82,7 @@ export default {
         transition: all 400ms ease;
     }
 
-    .contact button:hover{
+    .contact .button:hover{
         background: transparent;
         color: #005EFF;
     }
@@ -111,6 +111,48 @@ export default {
 
     a{
         text-decoration: none;
+    }
+
+    /* @media */
+
+    @media (max-width:700px){
+
+
+        .contact .list-social{
+            display: grid;
+            grid-template-areas:"item item item";
+            gap: 26px;
+        }
+
+        .contact .button{
+            font-size: 1.2rem;
+            padding: 20px 20px;
+        }
+    }
+
+    @media (max-width:460px){
+        .contact{
+            gap: 60px;
+            padding: 70px 40px 100px 40px;
+        }
+
+        .contact .title{
+            font-family: "Exo", sans-serif;
+            font-size: 1.6rem;
+            line-height: 30px;
+            font-weight: 700;
+            text-align: center;
+            max-width: 597px;
+        }
+
+        .contact .button{
+            font-size: 1rem;
+            padding: 18px 18px;
+        }
+
+        .contact .options-socias{
+            font-size: 1.6rem;
+        }
     }
 
 </style>

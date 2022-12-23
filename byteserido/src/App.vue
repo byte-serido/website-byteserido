@@ -4,10 +4,10 @@
   </header>
   
   <main>
-    <MyHero></MyHero>
-    <MyAbout></MyAbout>
-    <MySolutionsAndServices></MySolutionsAndServices>
-    <MyContact></MyContact>
+    <MyHero id="hero"></MyHero>
+    <MyAbout id="about"></MyAbout>
+    <MySolutionsAndServices id="sands"></MySolutionsAndServices>
+    <MyContact id="contact"></MyContact>
   </main>
   <footer>
     <MyFooter></MyFooter>

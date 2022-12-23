@@ -127,4 +127,67 @@ export default {
     .toogleSolutions{
         border-bottom: 3px solid blue;
     }
+
+    /* @media */
+
+    @media (max-width:1200px){
+        .line{
+            color:#FFFFFF;
+            width: 12rem;
+            background-color: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            line-height: 38px;
+            padding-bottom: 19px;
+            border-bottom: 0.5px solid #FFFFFF;
+        }
+    }
+
+    @media (max-width:800px){
+        .line{
+            display: none;
+        }
+    }
+
+    @media (max-width:700px){
+        .sands-container .sands{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding: 60px 20px 120px 40px;
+            gap: 60px;
+        }
+
+        .sands p {
+            font-size: 1.6rem;
+            text-align: center;
+        }
+
+        span{
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width:550px){
+        img{
+            display: none;
+        }
+
+    }
+
+    @media (max-width:460px){
+
+        .sands-container .sands{
+            padding: 40px 20px 100px 20px;
+            gap: 50px;
+        }
+        .sands p {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        span{
+            font-size: 1.3rem;
+        }
+    }
 </style>
