@@ -8,8 +8,8 @@
             </div>
             <div class="history">
                 <article>
-                    <p>A Byte Seridó JR é a primeira Empresa Junior do Seridó a ser federada. Foi fundada e iniciou as suas atividades no ano de 2019 e atualmente é composta por 20 membros, que tem a missão de oferecer serviços competentes e soluções inovadoras para a região.</p>
-                    <p>A EJ (ou marca?) representa o Curso de Bacharelado em Sistemas de Informação da UFRN, campus CERES Caicó e tem “Seridó” na sua marca para referenciar a sua localidade.</p>
+                    <p>A Byte Seridó JR é uma Empresa Júnior de tecnologia criada em 2019 por estudantes do curso de Sistemas de Informação da Universidade Federal do Rio Grande do Norte (UFRN) em Caicó. Com 20 membros dedicados e altamente qualificados, a Byte Seridó JR é a primeira empresa júnior do Seridó a ser federada.</p>
+                    <p>Desde sua criação, seus membros acreditam que a tecnologia é um poderoso meio para promover a inovação e o crescimento econômico, e tem como missão fornecer serviços de alta qualidade para ajudar os clientes a alcançar seus objetivos. Além disso, a empresa valoriza o trabalho em equipe, a ética e o compromisso com o desenvolvimento profissional de seus membros.</p>
                 </article>
                 <div>
                     <img src="../assets/img/vista_aérea_caico.svg" alt="Imagem aérea de Caicó"/>
