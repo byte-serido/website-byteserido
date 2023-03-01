@@ -4,13 +4,9 @@
             <p>SERVIÇOS E SOLUÇÕES INOVADORAS</p>
             <div class="option-container">
                 <button class="button-services" :class="options" @click="changeState()">
-                    <img v-if="toogleServices" src="../assets/img/icon_develop_activate.svg" alt="Icone de Serviços ativado">
-                    <img v-else src="../assets/img/icon_develop_desativate.svg" alt="Icone de Seviços desativado">
                     <span>desenvolvimento</span>
                 </button>
                 <button class="button-solutions" :class="options2" @click="changeState()">
-                    <img v-if="toogleSolutions" src="../assets/img/icon_marketing_activate.svg" alt="Icone de Marketing ativado">
-                    <img v-else src="../assets/img/icon_marketing_desativate.svg" alt="Icone de Marketing desativado">
                     <span>marketing</span>
                 </button>
                 <div class="line"></div>

@@ -1,7 +1,7 @@
 <template>
     <section class="footer-container">
         <div class="container footer">
-            <img src="../assets/img/logo-preto-branco.svg" alt="Logo da Byte Seridó Junior no footer">
+            <img src="../assets/img/footer-logo.svg" alt="Logo da Byte Seridó Junior no footer">
             <div class="navigation-and-social">
                 <div class="navigation">
                     <p>MAPA DO SITE</p>
@@ -67,7 +67,7 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 50px;
+        gap: 100px;
         padding: 50px 132px 132px 74px;
     }
 

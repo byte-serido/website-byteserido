@@ -1,7 +1,7 @@
 <template>
     <section class="about-container">
         <div class="container about">
-            <img src="../assets/img/logo-azul.svg" alt="Logo da ByteSeridoJunior azul">
+            <img src="../assets/img/about-logo.svg" alt="Logo da ByteSeridoJunior azul">
             <div class="about-title">
                 <p>DO SERIDÓ PARA O MUNDO</p>
                 <hr>
@@ -36,7 +36,7 @@ export default {
         flex-direction: column;
         align-items: center;
         padding: 54px 64px 120px 64px;
-        gap: 60px;
+        gap: 100px;
     }
 
     .about-title{
