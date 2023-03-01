@@ -1,7 +1,7 @@
 <template>
     <section class="navbar-container">
         <div class="container navbar">
-            <img src="../assets/img/navbar-logo.svg" alt="Logo da ByteSeridó Jr">
+            <img src="../assets/img/header-logo.svg" alt="Logo da ByteSeridó Jr">
             <div class="menu-bar">
                 <a class="menu-button" href="#hero">início</a>
                 <a class="menu-button" href="#about">quem somos</a>
